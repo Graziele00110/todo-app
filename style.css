@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #2c2c3e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  color: white;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4facfe;
+  color: white;
+}
+
+.filtros button {
+  background: #666;
+}
+
+li {
+  background: #444;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.mensagem {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+.sucesso {
+  background: #4caf50;
+}
+
+.erro {
+  background: #f44336;
+}
